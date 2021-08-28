@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FineBot</string>
+    <string name="home">Home</string>
+    <string name="patterns">Patterns</string>
+</resources>

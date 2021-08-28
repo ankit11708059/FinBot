@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_home"
+        android:id="@+id/coinListFragment"
+        android:title="@string/home"/>
+
+    <item
+        android:icon="@drawable/ic_patterns"
+        android:id="@+id/patternsFragment"
+        android:title="@string/patterns"/>
+
+   <!-- <item
+        android:id="@+id/third_fragment"
+        android:title="@string/menu_store"
+        android:contentDescription="@string/menu_store"
+        android:icon="@drawable/ic_store_white_24dp"/> -->
+
+
+</menu>

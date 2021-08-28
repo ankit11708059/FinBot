@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/coinListFragment">
+
+    <fragment
+        android:id="@+id/coinListFragment"
+        android:name="com.example.finebot.presentation.ui.CoinList.CoinListFragment"
+        android:label="coin_list_fragment"
+        tools:layout="@layout/coin_list_fragment" />
+
+    <fragment
+        android:id="@+id/patternsFragment"
+        android:name="com.example.finebot.presentation.ui.Patterns.PatternsFragment"
+        android:label="PatternsFragment"
+        tools:layout="@layout/patterns_fragment" />
+</navigation>
